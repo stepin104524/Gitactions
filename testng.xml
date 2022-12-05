@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" thread-count="5" parallel="methods">
+<!--    <listeners>-->
+<!--        <listener class-name="com.dometic.L1.androidrunner.NGTestListener"/>-->
+<!--    </listeners>-->
+<!--    <test name="L1-Test">-->
+<!--        <classes>-->
+<!--            <class name="com.dometic.L1.androidrunner.L1_runner"/>-->
+<!--            &lt;!&ndash;            <class name="com.dometic.L1.androidrunner.ReRunTest"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--    <test name="AMTH">-->
+<!--        &lt;!&ndash;        <parameter name="PortNumber" value="5723" />&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="com.dometic.L2.androidrunner.L2_runner"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--    <test name="MTC">-->
+<!--        <classes>-->
+<!--            <class name="com.dometic.MTC.androidrunner.MTC_runner"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;&lt;!&ndash;&ndash;&gt;-->
+<!--    <test name="Smart Delivery Box">-->
+<!--        <classes>-->
+<!--            <class name="com.dometic.SDB.androidrunner.SDB_runner"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--    <test name="Apollo-Test">-->
+<!--        <classes>-->
+<!--            <class name="com.dometic.Apollo.androidrunner.Apollo_runner"/>-->
+<!--            &lt;!&ndash;            <class name="com.dometic.L1.androidrunner.ReRunTest"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+        <test name="Shape_EMEA">
+            <classes>
+                <class name="com.dometic.Shape_EMEA.androidrunner.Shape_EMEA_runner"/>
+            </classes>
+        </test> <!-- Test --><!---->
+</suite> <!-- Suite -->
+
+

@@ -1,0 +1,2194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1961600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 366000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Launching the application",
+        "description": "",
+        "id": "verifying-application-splash-screen-in-dometic-shape-emea-application;launching-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2665400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27711658500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Launch the application",
+            "match": {
+              "location": "Basestepdefinition.iLaunchTheApplicationOn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5002985400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying application Splash screen in Dometic Shape EMEA application",
+    "description": "",
+    "id": "verifying-application-splash-screen-in-dometic-shape-emea-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/dometic/Shape_EMEA/features/TC01_LaunchScreen.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 659700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 544400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verifying application Splash screen Functionality",
+        "description": "",
+        "id": "verifying-application-splash-screen-in-dometic-shape-emea-application;verifying-application-splash-screen-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 301300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2123238600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Tap on Allow button in Permission popup in Login Page",
+            "match": {
+              "location": "Basestepdefinition.tap_on_Allow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15572724600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify Welcome Text is displaying in Login Page",
+            "match": {
+              "location": "LoginScreen.assert_Welcome()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127272700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Verify Page title is displayed in Login Page",
+            "match": {
+              "location": "LoginScreen.Login_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5015371900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying application Splash screen in Dometic Shape EMEA application",
+    "description": "",
+    "id": "verifying-application-splash-screen-in-dometic-shape-emea-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/dometic/Shape_EMEA/features/TC02_SplashScreen.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 311900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 206000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verifying application Login Functionality with valid credentials",
+        "description": "",
+        "id": "verifying-application-dashboard-screen-in-dometic-shape-emea-application;verifying-application-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 299000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6355289100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter Valid Email in Login Page",
+            "match": {
+              "location": "LoginScreen.iEnterValidEmailInLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5760391200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter Valid Password in Login Page",
+            "match": {
+              "location": "LoginScreen.iEnterValidPasswordInLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5247990700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Tap on an Login button in Login Page",
+            "match": {
+              "location": "LoginScreen.iTapOnAnLoginButtonInLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 537200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify successfully navigated to Dash Board screen",
+            "match": {
+              "location": "LoginScreen.iVerifySuccessfullyNavigatedToOnBoardingScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 301300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 260000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verifying application DashBoard screen functionality",
+        "description": "",
+        "id": "verifying-application-dashboard-screen-in-dometic-shape-emea-application;verifying-application-dashboard-screen-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 282200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8906329400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I entered into Home Page",
+            "match": {
+              "location": "OnboardingScreen.iEnteredIntoHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22868438500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Tap on Dashboard Tile",
+            "match": {
+              "location": "OnboardingScreen.iTapOnMarineTile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139040800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Wait until Landing screen is displayed",
+            "match": {
+              "location": "OnboardingScreen.iWaitUntilLandingScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying application DashBoard Screen in Dometic Shape EMEA application",
+    "description": "",
+    "id": "verifying-application-dashboard-screen-in-dometic-shape-emea-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/dometic/Shape_EMEA/features/TC06_DashboardScreen.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 481600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 278300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verifying Climate page UI",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-climate-page-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 292300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2120024400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Tap on Hamburger Menu Button",
+            "match": {
+              "location": "ClimateScreen.iTapOnHamburgerMenuButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 341806100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Tap on Home option in Settings screen",
+            "match": {
+              "location": "Settings.iTapOnHomeOptionInSettingsScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5002250200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128092900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I tap on the onboarded Shape EMEA device",
+            "match": {
+              "location": "ClimateScreen.iTapOnTheOnboardedShapeEMEADevice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5008559500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7914738400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011045000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173965600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify Climate header text",
+            "match": {
+              "location": "ClimateScreen.iVerifyClimateHeaderText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99127500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify back button in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 355227100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify Inside text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyInsideTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94476900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify Inside temperature in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyInsideTemperatureInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92266000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify Inside temperature unit in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyInsideTemperatureUnitInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91177600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify if Fan speed is displayed under temperature",
+            "match": {
+              "location": "ClimateScreen.iVerifyIfFanSpeedIsDisplayedUnderTemperature()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 379371300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify Power text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyPowerTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115345400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify Power toggle in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyPowerToggleInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152421200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Tap on the Power toggle in Climate screen if its in OFF state",
+            "match": {
+              "location": "ClimateScreen.iTapOnThePowerToggleInClimateScreenIfItsInOFFState()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334186600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I verify Climate mode text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyClimateModeTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112836100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify Climate mode selected option in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyClimateModeSelectedOptionInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184166300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verify Fan speed text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyFanSpeedTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 284274700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verify Fan speed selected option in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyFanSpeedSelectedOptionInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 169615500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify Sleep text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifySleepTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180549000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify Sleep toggle in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifySleepToggleInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 221484100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify Lights text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyLightsTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166123900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I verify Internal text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyInternalTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112835800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I verify Internal toggle in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyInternalToggleInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372220400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify Internal brightness text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyInternalBrightnessTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113105600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify if internal brightness option is displayed",
+            "match": {
+              "location": "ClimateScreen.iVerifyIfInternalBrightnessOptionIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2404113600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I scroll the screen",
+            "match": {
+              "location": "ClimateScreen.iScrollTheScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159851700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I verify Timer text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyTimerTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157409200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I verify Auto On text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyAutoOnTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135988900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify Auto Off text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyAutoOffTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319464300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify status text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyStatusTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120304800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I verify Status toggle in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyStatusToggleInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 177451000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I verify Scheduled At text in Climate screen",
+            "match": {
+              "location": "ClimateScreen.iVerifyScheduledAtTextInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263904200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 734500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 307600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Verifying Application Climate screen Carousel Boundary Minimum Values(Celcius) Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-climate-screen-carousel-boundary-minimum-values(celcius)-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 249100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3312660600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Tap on Hamburger Menu Button",
+            "match": {
+              "location": "ClimateScreen.iTapOnHamburgerMenuButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2130098900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I Tap on App Settings Label",
+            "match": {
+              "location": "ClimateScreen.iTapOnAppSettingsLabel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2253165600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I Change The Temperature From Fahrenheit To Celcius",
+            "match": {
+              "location": "ClimateScreen.iChangeTheTemperatureFromFahrenheitToCelcius()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2123257900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Tap on Back Button in App Settings Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInAppSettingsScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2132411900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8035864400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I Scroll The Celcius Temperature Upto Minimum Value",
+            "match": {
+              "location": "ClimateScreen.iScrollTheCelciusTemperatureUptoMinimumValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2525410400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I Tap On Apply Button In Climate For Minimum Carousel Value",
+            "match": {
+              "location": "ClimateScreen.iTapOnApplyButtonInClimateForMinimumCarouselValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212639800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7607972600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I Validated The Applied Minimum Value Is Displayed",
+            "match": {
+              "location": "ClimateScreen.iValidatedTheAppliedMinimumValueIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 191400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Verifying Application Climate screen Carousel Boundary Maximum Values(Celcius) Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-climate-screen-carousel-boundary-maximum-values(celcius)-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 266300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2153822800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20101756400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I Scroll The Celcius Temperature Upto Maximum Value",
+            "match": {
+              "location": "ClimateScreen.iScrollTheCelciusTemperatureUptoMaximumValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2524694100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I Tap On Apply Button In Climate For Maximum Carousel Value",
+            "match": {
+              "location": "ClimateScreen.iTapOnApplyButtonInClimateForMaximumCarouselValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186278700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5214436400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I Validated The Applied Maximum Value Is Displayed",
+            "match": {
+              "location": "ClimateScreen.iValidatedTheAppliedMaximumValueIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 353800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Verifying Application Climate screen Carousel Boundary Random Values(Celcius) Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-climate-screen-carousel-boundary-random-values(celcius)-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 202300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4895439300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13575183900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I Scroll The Celcius Temperature For Random Value",
+            "match": {
+              "location": "ClimateScreen.iScrollTheCelciusTemperatureForRandomValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2631769000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I Tap On Apply Button In Climate For Maximum Carousel Value",
+            "match": {
+              "location": "ClimateScreen.iTapOnApplyButtonInClimateForMaximumCarouselValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 288599500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8677094400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I Validated The Applied Celcius Value Is Displayed",
+            "match": {
+              "location": "ClimateScreen.iValidatedTheAppliedValueIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 268500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Verifying Application Climate screen Carousel Boundary Minimum Values(Fahrenheit) Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-climate-screen-carousel-boundary-minimum-values(fahrenheit)-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 253600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2324400800,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I Tap on Hamburger Menu Button",
+            "match": {
+              "location": "ClimateScreen.iTapOnHamburgerMenuButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2136134900,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I Tap on App Settings Label",
+            "match": {
+              "location": "ClimateScreen.iTapOnAppSettingsLabel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2378872100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I Change The Temperature From Celcius To Fahrenheit",
+            "match": {
+              "location": "ClimateScreen.iChangeTheTemperatureFromCelciusToFahrenheit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2133177900,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I Tap on Back Button in App Settings Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInAppSettingsScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2283428100,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4387248000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I Scroll The Fahrenheit Temperature Upto Minimum Value",
+            "match": {
+              "location": "ClimateScreen.iScrollTheFahrenheitTemperatureUptoMinimumValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2927767100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I Tap On Apply Button In Climate For Minimum Carousel Value",
+            "match": {
+              "location": "ClimateScreen.iTapOnApplyButtonInClimateForMinimumCarouselValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265639800,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9571070000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I Validated The Applied Minimum Value(Fahrenheit) Is Displayed",
+            "match": {
+              "location": "ClimateScreen.iValidatedTheAppliedMinimumValueFahrenheitIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 201600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Verifying Application Climate screen Carousel Boundary Maximum Values(Fahrenheit) Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-climate-screen-carousel-boundary-maximum-values(fahrenheit)-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 202800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2089306800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37809619900,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I Scroll The Fahrenheit Temperature Upto Maximum Value",
+            "match": {
+              "location": "ClimateScreen.iScrollTheFahrenheitTemperatureUptoMaximumValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2546877300,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I Tap On Apply Button In Climate For Maximum Carousel Value",
+            "match": {
+              "location": "ClimateScreen.iTapOnApplyButtonInClimateForMaximumCarouselValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116873600,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4831824400,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I Validated The Applied Maximum Value(Fahrenheit) Is Displayed",
+            "match": {
+              "location": "ClimateScreen.iValidatedTheAppliedMaximumValueFahrenheitIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 199800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 90,
+        "name": "Verifying Application Climate screen Carousel Boundary Random Values(Fahrenheit) Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-climate-screen-carousel-boundary-random-values(fahrenheit)-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 201600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2133053200,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I Tap On Climate Tile In Landing Screen For Shape EMEA User",
+            "match": {
+              "location": "ClimateScreen.iTapOnClimateTileInLandingScreenForShapeEMEAUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15895547400,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I Scroll The Fahrenheit Temperature For Random Value",
+            "match": {
+              "location": "ClimateScreen.iScrollTheFahrenheitTemperatureForRandomValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2564546100,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I Tap On Apply Button In Climate For Maximum Carousel Value",
+            "match": {
+              "location": "ClimateScreen.iTapOnApplyButtonInClimateForMaximumCarouselValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118834200,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I Tap On Back Button In Climate Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInClimateScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5161950100,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I Validated The Applied Fahrenheit Value Is Displayed",
+            "match": {
+              "location": "ClimateScreen.iValidatedTheAppliedFahrenheitValueIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2106407600,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I Tap on Hamburger Menu Button",
+            "match": {
+              "location": "ClimateScreen.iTapOnHamburgerMenuButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2208114200,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I Tap on App Settings Label",
+            "match": {
+              "location": "ClimateScreen.iTapOnAppSettingsLabel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2524469900,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I Change The Temperature From Fahrenheit To Celcius",
+            "match": {
+              "location": "ClimateScreen.iChangeTheTemperatureFromFahrenheitToCelcius()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2189948800,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I Tap on Back Button in App Settings Screen",
+            "match": {
+              "location": "ClimateScreen.iTapOnBackButtonInAppSettingsScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying application Setting Screen in Dometic Shape EMEA application",
+    "description": "",
+    "id": "verifying-application-setting-screen-in-dometic-shape-emea-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/dometic/Shape_EMEA/features/TC07_ClimateScreen.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 217200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Init(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 123100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verifying application Settings screen UI",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-settings-screen-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 304300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 282054000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iVerifyTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2113449500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Tap on the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iTapOnTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99442800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the settings screen back button",
+            "match": {
+              "location": "Settings.iVerifyTheSettingsScreenBackButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100507200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify if user profile photo is displayed",
+            "match": {
+              "location": "Settings.iVerifyIfUserProfilePhotoIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256060600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify if username is displayed",
+            "match": {
+              "location": "Settings.iVerifyIfUsernameIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84895800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify if user email is displayed",
+            "match": {
+              "location": "Settings.iVerifyIfUserEmailIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134248200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify View Edit Account text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyViewEditAccountTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133747900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify Home text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyHomeTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 241280000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify Notification Settings text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyNotificationSettingsTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130245300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify Device Management text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyDeviceManagementTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153223400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify App Settings text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyAppSettingsTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124747600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify Logout text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyLogoutTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 238014300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify Version text in Settings page",
+            "match": {
+              "location": "Settings.iVerifyVersionTextInSettingsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5005683400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 216300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeStep(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verifying application Settings screen Functionality",
+        "description": "",
+        "id": "verifying-application-setting-screen-in-dometic-shape-emea-application;verifying-application-settings-screen-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 227000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.StatusLogScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 199886400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Tap on Home option in Settings screen",
+            "match": {
+              "location": "Settings.iTapOnHomeOptionInSettingsScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011393300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2121637800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Tap on the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iTapOnTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236514100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I tap on the View edit account option",
+            "match": {
+              "location": "Settings.iTapOnTheViewEditAccountOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5014326100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 338498300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I tap on the back button in Account settings",
+            "match": {
+              "location": "Settings.iTapOnTheBackButtonInAccountSettings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3300297400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Tap on the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iTapOnTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 252405500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I tap on the Notification Settings option",
+            "match": {
+              "location": "Settings.iTapOnTheNotificationSettingsOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5003648700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121827200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I tap on the back button in Manage notifications",
+            "match": {
+              "location": "Settings.iTapOnTheBackButtonInManageNotifications()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3246263200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Tap on the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iTapOnTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 323893600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I tap on the Device Management option",
+            "match": {
+              "location": "Settings.iTapOnTheDeviceManagementOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5008964000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106658400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I tap on the back button in Device Management",
+            "match": {
+              "location": "Settings.iTapOnTheBackButtonInDeviceManagement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011703000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2103880000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I Tap on the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iTapOnTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5001303400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151197500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I tap on the App Settings option",
+            "match": {
+              "location": "Settings.iTapOnTheAppSettingsOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5014186400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179507900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I tap on the back button in app settings",
+            "match": {
+              "location": "Settings.iTapOnTheBackButtonInAppSettings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5002760200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2118130500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I Tap on the hamburger menu in landing screen",
+            "match": {
+              "location": "Settings.iTapOnTheHamburgerMenuInLandingScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5013820600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I Wait short period for Page to Load",
+            "match": {
+              "location": "Basestepdefinition.I_Wait_short_for_Page_to_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162890500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I tap on the Logout option",
+            "match": {
+              "location": "Settings.iTapOnTheLogoutOption()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying application Setting Screen in Dometic Shape EMEA application",
+    "description": "",
+    "id": "verifying-application-setting-screen-in-dometic-shape-emea-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/dometic/Shape_EMEA/features/TC08_Settings.feature",
+    "tags": []
+  }
+]

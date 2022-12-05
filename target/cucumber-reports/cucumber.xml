@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="408.401837">
+<testcase classname="Verifying application Splash screen in Dometic Shape EMEA application" name="Launching the application" time="32.742874">
+<system-out><![CDATA[Given I Launch the application..............................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Splash screen in Dometic Shape EMEA application" name="Verifying application Splash screen Functionality" time="22.842487">
+<system-out><![CDATA[Then I Tap on Allow button in Permission popup in Login Page................passed
+Then I verify Welcome Text is displaying in Login Page......................passed
+Then I Verify Page title is displayed in Login Page.........................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application DashBoard Screen in Dometic Shape EMEA application" name="Verifying application Login Functionality with valid credentials" time="17.36697">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on an Login button in Login Page.................................passed
+Then I verify successfully navigated to Dash Board screen...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application DashBoard Screen in Dometic Shape EMEA application" name="Verifying application DashBoard screen functionality" time="31.916383">
+<system-out><![CDATA[Then I entered into Home Page...............................................passed
+Then I Tap on Dashboard Tile................................................passed
+Then I Wait until Landing screen is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Climate page UI" time="33.078274">
+<system-out><![CDATA[Then I Tap on Hamburger Menu Button.........................................passed
+Then I Tap on Home option in Settings screen................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the onboarded Shape EMEA device...............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Climate header text...........................................passed
+Then I verify back button in Climate screen.................................passed
+Then I verify Inside text in Climate screen.................................passed
+Then I verify Inside temperature in Climate screen..........................passed
+Then I verify Inside temperature unit in Climate screen.....................passed
+Then I verify if Fan speed is displayed under temperature...................passed
+Then I verify Power text in Climate screen..................................passed
+Then I verify Power toggle in Climate screen................................passed
+Then I Tap on the Power toggle in Climate screen if its in OFF state........passed
+Then I verify Climate mode text in Climate screen...........................passed
+Then I verify Climate mode selected option in Climate screen................passed
+Then I verify Fan speed text in Climate screen..............................passed
+Then I verify Fan speed selected option in Climate screen...................passed
+Then I verify Sleep text in Climate screen..................................passed
+Then I verify Sleep toggle in Climate screen................................passed
+Then I verify Lights text in Climate screen.................................passed
+Then I verify Internal text in Climate screen...............................passed
+Then I verify Internal toggle in Climate screen.............................passed
+Then I verify Internal brightness text in Climate screen....................passed
+Then I verify if internal brightness option is displayed....................passed
+Then I scroll the screen....................................................passed
+Then I verify Timer text in Climate screen..................................passed
+Then I verify Auto On text in Climate screen................................passed
+Then I verify Auto Off text in Climate screen...............................passed
+Then I verify status text in Climate screen.................................passed
+Then I verify Status toggle in Climate screen...............................passed
+Then I verify Scheduled At text in Climate screen...........................passed
+Then I Tap On Back Button In Climate Screen.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Application Climate screen Carousel Boundary Minimum Values(Celcius) Functionality" time="30.338402">
+<system-out><![CDATA[Then I Tap on Hamburger Menu Button.........................................passed
+Then I Tap on App Settings Label............................................passed
+Then I Change The Temperature From Fahrenheit To Celcius....................passed
+Then I Tap on Back Button in App Settings Screen............................passed
+Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Scroll The Celcius Temperature Upto Minimum Value....................passed
+Then I Tap On Apply Button In Climate For Minimum Carousel Value............passed
+Then I Tap On Back Button In Climate Screen.................................passed
+Then I Validated The Applied Minimum Value Is Displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Application Climate screen Carousel Boundary Maximum Values(Celcius) Functionality" time="30.183704">
+<system-out><![CDATA[Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Scroll The Celcius Temperature Upto Maximum Value....................passed
+Then I Tap On Apply Button In Climate For Maximum Carousel Value............passed
+Then I Tap On Back Button In Climate Screen.................................passed
+Then I Validated The Applied Maximum Value Is Displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Application Climate screen Carousel Boundary Random Values(Celcius) Functionality" time="30.070949">
+<system-out><![CDATA[Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Scroll The Celcius Temperature For Random Value......................passed
+Then I Tap On Apply Button In Climate For Maximum Carousel Value............passed
+Then I Tap On Back Button In Climate Screen.................................passed
+Then I Validated The Applied Celcius Value Is Displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Application Climate screen Carousel Boundary Minimum Values(Fahrenheit) Functionality" time="28.410551">
+<system-out><![CDATA[Then I Tap on Hamburger Menu Button.........................................passed
+Then I Tap on App Settings Label............................................passed
+Then I Change The Temperature From Celcius To Fahrenheit....................passed
+Then I Tap on Back Button in App Settings Screen............................passed
+Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Scroll The Fahrenheit Temperature Upto Minimum Value.................passed
+Then I Tap On Apply Button In Climate For Minimum Carousel Value............passed
+Then I Tap On Back Button In Climate Screen.................................passed
+Then I Validated The Applied Minimum Value(Fahrenheit) Is Displayed.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Application Climate screen Carousel Boundary Maximum Values(Fahrenheit) Functionality" time="47.39632">
+<system-out><![CDATA[Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Scroll The Fahrenheit Temperature Upto Maximum Value.................passed
+Then I Tap On Apply Button In Climate For Maximum Carousel Value............passed
+Then I Tap On Back Button In Climate Screen.................................passed
+Then I Validated The Applied Maximum Value(Fahrenheit) Is Displayed.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying Application Climate screen Carousel Boundary Random Values(Fahrenheit) Functionality" time="34.904891">
+<system-out><![CDATA[Then I Tap On Climate Tile In Landing Screen For Shape EMEA User............passed
+Then I Scroll The Fahrenheit Temperature For Random Value...................passed
+Then I Tap On Apply Button In Climate For Maximum Carousel Value............passed
+Then I Tap On Back Button In Climate Screen.................................passed
+Then I Validated The Applied Fahrenheit Value Is Displayed..................passed
+Then I Tap on Hamburger Menu Button.........................................passed
+Then I Tap on App Settings Label............................................passed
+Then I Change The Temperature From Fahrenheit To Celcius....................passed
+Then I Tap on Back Button in App Settings Screen............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying application Settings screen UI" time="9.100948">
+<system-out><![CDATA[Then I verify the hamburger menu in landing screen..........................passed
+Then I Tap on the hamburger menu in landing screen..........................passed
+Then I verify the settings screen back button...............................passed
+Then I verify if user profile photo is displayed............................passed
+Then I verify if username is displayed......................................passed
+Then I verify if user email is displayed....................................passed
+Then I verify View Edit Account text in Settings page.......................passed
+Then I verify Home text in Settings page....................................passed
+Then I verify Notification Settings text in Settings page...................passed
+Then I verify Device Management text in Settings page.......................passed
+Then I verify App Settings text in Settings page............................passed
+Then I verify Logout text in Settings page..................................passed
+Then I verify Version text in Settings page.................................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Setting Screen in Dometic Shape EMEA application" name="Verifying application Settings screen Functionality" time="60.049084">
+<system-out><![CDATA[Then I Tap on Home option in Settings screen................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on the hamburger menu in landing screen..........................passed
+Then I tap on the View edit account option..................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the back button in Account settings...........................passed
+Then I Tap on the hamburger menu in landing screen..........................passed
+Then I tap on the Notification Settings option..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the back button in Manage notifications.......................passed
+Then I Tap on the hamburger menu in landing screen..........................passed
+Then I tap on the Device Management option..................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the back button in Device Management..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on the hamburger menu in landing screen..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the App Settings option.......................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the back button in app settings...............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on the hamburger menu in landing screen..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the Logout option.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
